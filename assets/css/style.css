@@ -63,11 +63,13 @@ ul a:link, ul a:visited {
 }
 
 ul a:hover {
+  cursor: pointer;
   border-left: 3px solid #FF0000;
 }
 
 p a:link, p a:visited {
   color: #000;
+  cursor: pointer;
   text-decoration: none;
   background-color: #ececec;
   padding: 1px 4px;
