@@ -22,6 +22,14 @@
   100%  { opacity: 1; }
 }
 
+::selection {
+  background-color: #FC8393;
+}
+
+::-moz-selection {
+  background-color: #FC8393;
+}
+
 @media (min-width: 1350px) {
   #contact {
     position: fixed; 
@@ -83,13 +91,16 @@ p a:link, p a:visited {
   color: #000;
   cursor: pointer;
   text-decoration: none;
-  background-color: #ececec;
+  background-color: #FFD1D7;
   padding: 1px 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   transition: all .15s;
 } 
 
 p a:hover {
-  background-color: #c9c9c9;
+  background-color: #FC8393;
 }
 
 h1 {
