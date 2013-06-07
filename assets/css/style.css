@@ -47,8 +47,8 @@ body {
 }
 
 #wrapper {
-  width: 750px;
-  margin: 0 auto;
+  width: 300px;
+  margin: 200px auto 0 auto;
   -webkit-animation-name: fade-in;
   -webkit-animation-duration: 0.5s;
   -moz-animation-name: fade-in;
