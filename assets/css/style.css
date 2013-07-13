@@ -23,11 +23,13 @@
 }
 
 ::selection {
-  background-color: #FC8393;
+  background-color: #FF0099;
+  opacity: .9;
 }
 
 ::-moz-selection {
-  background-color: #FC8393;
+  background-color: #FF0099;
+  opacity: .9;
 }
 
 body { 
