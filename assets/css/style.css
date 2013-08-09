@@ -32,6 +32,11 @@ html { font-size: 14px; }
 
 }
 
+body { 
+  background-color: #fbfbfb; 
+  font-family: 'Noto Serif', serif;
+}
+
 #wrapper {
   -webkit-animation-name: fade-in;
   -webkit-animation-duration: 0.5s;
@@ -48,9 +53,19 @@ h1 {
   text-rendering: geometricPrecision;
 }
 
-body { 
-  background-color: #fbfbfb; 
-  font-family: 'Noto Serif', serif;
+a:link, a:visited {
+  color: #222;
+  transition: all 0.15s;
+  opacity: .7;
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+a:hover {
+  color: #FF0099;
+  cursor: pointer;
+  opacity: .9;
 }
 
 @media screen and (min-width: 320px) {
@@ -60,6 +75,10 @@ body {
   }
 
   h1 { font-size: .9rem; }
+
+  a:link, a:visited {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -68,6 +87,10 @@ body {
     width: 320px;
   }
   h1 { font-size: 1.3rem; }
+
+  a:link, a:visited {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -81,6 +104,10 @@ body {
   }
 
   h1 { font-size: 1.6rem; }
+
+  a:link, a:visited {
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -93,6 +120,10 @@ body {
     margin: -150px 0 0 -300px;
   }
   h1 { font-size: 1.8rem; }
+
+  a:link, a:visited {
+    font-size: 2rem;
+  }
 }
 
 ul {
@@ -102,16 +133,6 @@ ul {
 li {
 
 }
-
-a:link, a:visited {
-
-}
-
-a:hover {
-
-}
-
-a:active {  }
 
 h1 {
 
